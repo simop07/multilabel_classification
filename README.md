@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the implementation and evaluation of discriminative supervised models for **multilabel text classification** on the [TinyStories dataset](https://huggingface.co/datasets/roneneldan/TinyStories).
+This repository contains the implementation and evaluation of discriminative supervised models for **multilabel text classification** on the [TinyStories dataset]([https://huggingface.co/datasets/roneneldan/TinyStories](https://huggingface.co/datasets/skeskinen/TinyStories-GPT4)).
 
 The project focuses on comparing a **traditional linear classifier** with a **Transformer-based model**, highlighting differences in representation power, performance, and computational cost.
 

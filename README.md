@@ -1,5 +1,4 @@
-<p align="center"> <img src="logo.png" width="50%"> </p>
-
+<p align="center"> <img src="logo.png" width="60%"> </p>
 # Multilabel discriminative modeling on TinyStories dataset
 
 ## Overview

@@ -16,7 +16,7 @@ The full theoretical background, model architectures, and experimental results a
 
 Text Classification is a core task in Natural Language Processing, with applications ranging from information retrieval to sentiment analysis. In this work, the task of **supervised multilabel text classification** is addressed using **discriminative models**, where each label is treated as an independent binary classification problem.
 
-Given a dataset of labeled documents ${(x_i, y_i)}_{i=1}^N$, where $x_i$ is a text document and $y_i \in {0,1}^L$ is a multi-hot encoded vector over $L$ possible labels, the models learn decision boundaries by maximizing the conditional probability $p(y_{il}=1 \mid x_i)$ for each label $l$.
+Given a dataset of labeled documents $$\left\{(x_i, y_i)\right\}_{i=1}^N$$, where $x_i$ is a text document and $y_i \in \{0,1\}^L$ is a multi-hot encoded vector over $L$ possible labels, the models learn decision boundaries by maximizing the conditional probability $p(y_{il}=1 \mid x_i)$ for each label $l$.
 
 The TinyStories dataset consists of short children stories annotated with zero or more semantic tags from a fixed set of six classes:
 **BadEnding, Conflict, Dialogue, Foreshadowing, MoralValue, Twist**.
@@ -46,11 +46,9 @@ This setup ensures reliable performance estimation while keeping computational t
 
 The code supports two execution modes that control which stages of the pipeline are executed:
 
-* **`TEST`**** (default)**
-  Loads pre-trained model parameters and directly evaluates the model on the test set.
+* **`TEST`** (default) $\rightarrow$ Loads pre-trained model parameters and directly evaluates the model on the test set.
   This mode allows the test phase to be run as a standalone execution without retraining.
 
-* **`TRAIN`**
-  Enables full training, validation, and testing of the models, while saving the updated model parameters.
+* **`TRAIN`** $\rightarrow$ Enables full training, validation, and testing of the models, while saving the updated model parameters.
 
 The execution mode is controlled via the `set_mode` function, which is called multiple times throughout the code to manage the workflow for each model.

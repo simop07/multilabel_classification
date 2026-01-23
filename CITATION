@@ -1,0 +1,18 @@
+abstract: Discriminative supervised modeling for multilabel text classification on
+  TinyStories dataset, through Logistic Regression and DistilBERT models.
+authors:
+- affiliation: DIFA UniBo
+  family-names: Simone Pasquini
+cff-version: 1.2.0
+date-released: '2026-01-23'
+doi: 10.5281/zenodo.18347758
+identifiers:
+- type: swh
+  value: swh:1:dir:3481a312a2c3323ede419acda5da49a6f3f2267c;origin=https://doi.org/10.5281/zenodo.18347757;visit=swh:1:snp:eb7f5c052da33b9311cc42cae9d429c5c3619335;anchor=swh:1:rel:2be201017623907fda922a4963cc7b3fda34bea3;path=simop07-multilabel_classification-4273508
+license:
+- mit
+message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/simop07/multilabel_classification/tree/v1.2.0
+title: 'simop07/multilabel_classification: Multilabel text classification on TinyStories'
+type: software
+version: v1.2.0

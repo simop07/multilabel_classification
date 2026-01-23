@@ -2,6 +2,9 @@
 
 # Multilabel discriminative modeling on TinyStories dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18347758.svg)](https://doi.org/10.5281/zenodo.18347758)
+[![GitHub license](https://img.shields.io/github/license/simop07/multilabel_classification)](https://github.com/simop07/multilabel_classification/blob/main/LICENSE)
+
 ## Overview
 
 This repository contains the implementation and evaluation of discriminative supervised models for **multilabel text classification** on the [TinyStories dataset]([https://huggingface.co/datasets/roneneldan/TinyStories](https://huggingface.co/datasets/skeskinen/TinyStories-GPT4)).

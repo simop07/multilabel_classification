@@ -9,7 +9,7 @@
 
 This repository contains the implementation and evaluation of discriminative supervised models for **multilabel text classification** on the [TinyStories dataset]([https://huggingface.co/datasets/roneneldan/TinyStories](https://huggingface.co/datasets/skeskinen/TinyStories-GPT4)).
 
-The [project](projectFinal.py) focuses on comparing a **traditional linear classifier**, the Logistic Regression, with a **Transformer-based model**, Distilbert. Differences in representation power, performance and computational cost are highlighted, and the full theoretical background, model architectures and experimental results are described in:
+The [project](projectFinal.py) focuses on comparing a **traditional linear classifier**, the Logistic Regression, with a **Transformer-based model**, DistilBERT. Differences in representation power, performance and computational cost are highlighted, and the full theoretical background, model architectures and experimental results are described in:
 
 * [Report](report.pdf) → Comprehensive description of the models, dataset, training strategy and evaluation metrics.
 

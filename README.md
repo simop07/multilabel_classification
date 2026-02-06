@@ -3,6 +3,7 @@
 # Multilabel discriminative modeling on TinyStories dataset
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18347758.svg)](https://doi.org/10.5281/zenodo.18347758)
+[![GitHub license](https://img.shields.io/github/license/simop07/multilabel_classification)](https://github.com/simop07/multilabel_classification/blob/main/LICENSE)
 
 ## Overview
 
